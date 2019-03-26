@@ -1,0 +1,88 @@
+html, body {
+    margin-top: 100px;
+    height: 80%;
+}
+
+@media (min-width: 1200px){
+
+  html, body{
+
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+}
+
+img{
+
+  height: 80px;
+
+}
+
+.title{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.sub-title p{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b8b8b8;
+
+}
+
+#button-addon2{ 
+
+  color: #fff;
+  background-color: #5086ec;
+  font-size: 14px;
+  border-radius: 0px 100px 100px 0px;
+  display: flex;
+  border-color: #e7e7e7;
+  
+}
+
+.input-group{
+
+  border-radius: 0px 100px 100px 0px;
+  border-color: #e7e7e7;
+
+}
+
+#task-form{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+
+
+}
+
+input.form-control{
+
+    border-radius: 100px 0px 0px 100px;
+    display: flex;
+    border-color: #e7e7e7;
+    height: 42px;
+    margin-top: 14px;
+    font-weight: lighter;
+
+}
+
+.input-group-append{
+
+  margin-top: 14px;
+
+}
+
+#listContainer{
+
+  color: #5086ec;
+  border: 1px;
+  border-color: #e7e7e7;
+  border-radius: 0px 100px 100px 0px;
+  
+}
